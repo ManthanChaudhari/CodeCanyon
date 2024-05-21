@@ -6,7 +6,7 @@ function BrowserSupport() {
   return (
     <Container>
       <div className="flex flex-col items-center gap-y-9 bg-[#1b192c] py-14 rounded-3xl shadow-sm shadow-gray-600">
-        <div className=" font-sora">
+        <div className=" font-sora font-semibold">
           <h1 className="text-lg lg:text-2xl text-center text-white">Supported by All Popular Browsers</h1>
         </div>
         <div className=" lg:w-[500px] px-7">

@@ -3,4 +3,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import "./App.css"
+
+.custom-cursor {
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(circle, rgba(94, 17, 255, 0.8) 0%, rgba(248, 117, 22, 0.8) 40%, rgba(248, 117, 22, 0) 70%);
+    transition: transform 0.1s ease;
+    pointer-events: none;
+    position: fixed;
+    mix-blend-mode: difference;
+  }
+  
+  
+  
+  

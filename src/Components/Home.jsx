@@ -7,9 +7,9 @@ function Home() {
     <div className='grid p-2 gap-x-4 lg:grid-cols-12'>
       <div className='p-2 font-outfit col-span-6 lg:col-span-3 flex justify-center  lg:justify-start lg:items-start '>
       <div>
-      <div className='text-white text-xl w-44'>
-        <div className='bg-gradient-to-r from-[#F87516]  to-[#5E11FF] text-transparent  bg-clip-text text-center'>Transform Your Website</div>
-        <div className='text-center'>With Motion Art Effect</div>
+      <div className='text-white text-xl w-36'>
+        <div className='bg-gradient-to-r from-[#F87516]  to-[#5E11FF] text-transparent  bg-clip-text text-center lg:text-start'>Transform Your Website</div>
+        <div className='text-center lg:text-start'>With Motion Art Effect</div>
       </div>
       </div>
       </div>

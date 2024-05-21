@@ -13,7 +13,7 @@ function FeatureSection() {
           An All-Round Plugin With Powerful Features
           </h1>
         </div>
-        <div className=" lg:w-[500px] px-7">
+        <div className=" lg:w-[650px] px-7">
           <p className="text-lg text-center text-gray-400 leading-7">
           Whether you're a seasoned web designer or just starting out, Motion Art for Elementor seamlessly integrates with the Elementor platform, providing you with a seamless and intuitive experience.
           </p>

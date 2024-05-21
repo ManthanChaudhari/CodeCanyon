@@ -8,7 +8,7 @@ function SectionPage() {
   return (
     <Container className=" py-24">
       <div className="flex flex-col justify-center items-center gap-y-10">
-        <div className="">
+        <div className="lg:w-[550px]">
           <h1 className="text-center lg:text-4xl font-semibold text-white">
             Apply On Any Section Or Enable For Whole Page
           </h1>
