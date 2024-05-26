@@ -7,7 +7,6 @@ const CustomCursor = () => {
 
   useEffect(() => {
     const cursor = cursorRef.current;
-
     const moveCursor = (e) => {
       gsap.to(cursor, {
         x: e.clientX,

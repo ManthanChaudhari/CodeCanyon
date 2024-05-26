@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React , { useState } from "react";
 import Header from "./Components/Header";
 import Home from "./Components/Home";
 import Users from "./Components/Users";
@@ -7,18 +7,13 @@ import SectionPage from "./Components/SectionPage";
 import BrowserSupport from "./Components/BrowserSupport";
 import FeatureSection from "./Components/FeatureSection";
 import Footer from "./Components/Footer";
-import { useGSAP } from "@gsap/react";
-import gsap from "gsap";
-import CustomCursor from "./Components/CustomCursor";
+// import CustomCursor from "./Components/CustomCursor";
 
 function App() {
-  useGSAP(() => {
-    gsap
-  })
   return (
     <div className="bg-[#11101b] cursor-default">
       <Header />
-      <CustomCursor/>
+      {/* <CustomCursor/> */}
       <Home />
       <Users />
       <Purchase />

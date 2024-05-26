@@ -10,8 +10,8 @@ function Footer() {
             <p> © 2023 Copywrite. All rights reserved by QodeMatrix </p>
           </div>
           <div className="text-gray-300 text-sm flex justify-center gap-x-6">
-            <a href="https://qodematrix.com/docs/motion-art-for-elementor/">Documentation</a>
-            <a href="https://support.qodematrix.com/login">Support</a>
+            <p>Documentation</p>
+            <p>Support</p>
           </div>
         </div>
       </Container>
